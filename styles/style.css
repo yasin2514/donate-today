@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header-start */
+header {
+    background-image: url("../images/donation1.jpg"), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    background-blend-mode: overlay;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.header-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FF5959;
+    padding: 16px 12px;
+    border-radius: 5px;
+    border: 0;
+}
+.btn:hover{
+    background-color: #ed5050;
+    color: rgb(221, 220, 220);
+}
