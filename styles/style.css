@@ -94,7 +94,6 @@ main {
 
 .section {
     margin: 100px 200px;
-    /* border: 1px solid red; */
 }
 
 .section-title {
@@ -219,49 +218,100 @@ main {
     margin-bottom: 15px;
 }
 
-.donation-img img{
+.donation-img img {
     width: 100%;
 }
+
 /* donation-2 section */
-.donation2{
+.donation2 {
     margin-top: 100px;
     flex-direction: row-reverse;
 }
-.updates{
+
+.updates {
     margin: 100px 300px;
 }
+
 /* update-section */
-.updates-details{
+.updates-details {
     margin-bottom: 50px;
 }
-.updates-form{
-    background-color:#FFF4D6 ;
+
+.updates-form {
+    background-color: #FFF4D6;
     padding: 70px 180px;
     display: flex;
     justify-content: center;
 }
-form{
+
+form {
     display: flex;
     align-items: center;
 }
-.updates-form  input{
+
+.updates-form input {
     background-color: #D9D9D9;
     border: 0;
     padding: 15px 10px;
 }
+
 /* footer section */
-footer{
+footer {
     background-color: #0B0D17;
     text-align: center;
     padding: 50px 0px;
 }
-.footer-title{
+
+.footer-title {
     color: #FF5959;
     font-size: 36px;
     margin-bottom: 10px;
 
 }
-.footer-text{
+
+.footer-text {
     color: #D9DBE1;
     font-size: 14px;
+}
+
+/* hide */
+.hide {
+    display: none;
+}
+
+/* for tablet device */
+@media only screen and (max-width:1050px) {
+
+    .section {
+        margin: 100px 100px;
+    }
+
+    .donate-plan-cards {
+        flex-direction: column;
+    }
+
+    .donation {
+        flex-direction: column-reverse;
+        margin: 50px 100px;
+    }
+
+
+}
+
+/* for mobile device */
+@media only screen and (max-width:567px) {
+
+    .section {
+        margin: 100px 20px;
+    }
+
+    .donate-plan-cards {
+        flex-direction: column;
+    }
+
+    .donation {
+        flex-direction: column-reverse;
+    }
+
+
 }
