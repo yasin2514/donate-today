@@ -274,11 +274,6 @@ footer {
     font-size: 14px;
 }
 
-/* hide */
-.hide {
-    display: none;
-}
-
 /* for tablet device */
 @media only screen and (max-width:1050px) {
 
@@ -300,17 +295,33 @@ footer {
 
 /* for mobile device */
 @media only screen and (max-width:567px) {
-
-    .section {
-        margin: 100px 20px;
+    header {
+        padding: 0px 20px;
     }
 
-    .donate-plan-cards {
-        flex-direction: column;
+    .section {
+        margin: 100px 30px;
+    }
+
+    .donate-section {
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     .donation {
-        flex-direction: column-reverse;
+        margin: 50px 30px;
+    }
+
+    .donate-money {
+        flex-direction: column;
+        gap: 0px;
+
+    }
+    .updates {
+        margin: 100px 30px;
+    }
+    .updates-form {
+        padding:20px 10px;
     }
 
 
